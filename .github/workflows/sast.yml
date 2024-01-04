@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        name: Run bandit
+      - name: Run bandit
         uses: shundor/python-bandit-scan@v1.0
         with: 
           path: "."
